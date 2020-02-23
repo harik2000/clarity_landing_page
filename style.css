@@ -1,0 +1,374 @@
+html,body {
+  font-family: 'Roboto', serif;
+  min-width:100%;
+}
+
+hr {
+  width: 100vw;
+  height: 2px;
+  background-color: #CFCFCF;
+  border: none;
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+nav > div {
+  min-height: 50px;
+  padding: 2.5rem 4rem;
+}
+
+nav {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+.logo{
+  font-size: 2.5em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #222D3B;
+}
+.howto{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  color: #8E8E90;
+}
+.faq{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  color: #8E8E90;
+}
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F2F3F4;
+  border: 2px solid #BEBEBF;
+  border-radius: 10px;
+  color: #747577;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+nav a { text-decoration: none; color: #8E8E90; }
+nav a:hover { text-decoration: none;color: #222D3B }
+
+
+
+.landing-page{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 2.5rem 4rem;
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+}
+.landing-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  color: #242F39;
+}
+
+.landing-info{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 33px;
+  color: #8E8E90;
+}
+.get-started{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 400;
+  background-color: #E75E56;
+  border-radius: 5px;
+  color: #FEFFFF;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.image{
+  text-align: center;
+}
+.grid-container{
+  display: block;
+}
+.info{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 2.5rem 4rem;
+}
+.info_title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  color: #242F39;
+
+}
+.subtext{
+  font-size: 2.5em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #222D3B;
+}
+.section_title_1, .section_title_2, .section_title_3, .section_title_4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75em;
+  line-height: 2.0625em;
+
+  color: #000000;
+}
+.section_info_1, .section_info_2, .section_info_3, .section_info_4{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.75em;
+
+  color: #8E8E90;
+
+}
+.next_1, .next_2{
+  display: none;
+}
+
+
+
+.How_it_works{
+  justify-items: center;
+  text-align: center;
+  padding: 2.5rem 4rem;
+  
+}
+.how_it_works_title{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  color: #E75E56;
+}
+.phone, .qr, .cart{
+  margin-top: 3rem;
+}
+.phone_title, .qr_title, .cart_title{
+  margin-top: 1rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75em;
+  text-align: center;
+
+  color: #8E8E90;
+}
+
+.footer{
+  background-color: #132233;
+  width: 105%;
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.footer > div {
+  min-height: 50px;
+  padding: 1rem 4rem;
+}
+
+.footer_title{
+  margin-top: 3rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25em;
+
+  color: #FFFFFF;
+}
+.footer_howto, .footer_faq{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75em;
+  color: #FFF;
+}
+.footer a{
+  text-decoration: none; color: #fff;
+}
+.footer a:hover { text-decoration: none;color: gray }
+
+@media (min-width: 71rem) {
+  nav {
+    grid-template-rows: none;
+    grid-template-columns: 1fr auto auto auto;
+    text-align: right;
+    justify-items: start;
+    /* border-bottom: 2px solid #CFCFCF; */
+  }
+  
+  hr {
+    display: none;
+  }
+  .logo{
+    margin-left: 3rem;
+  }
+  .signin{
+    margin-right: 3rem;
+    }
+
+
+
+  .landing-page{
+    display: inline-block;
+    width: 40%;
+    justify-items: start;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+  }
+  .landing-info{
+    width: 90%;;
+    line-height: 60px;
+  }
+  .get_started{
+    margin-top: 4rem;
+  }
+  .image{
+    display: inline-block;
+   margin-left: 100px;
+  }
+  .info_title{
+    width: 50%;
+  }
+  .subtext{
+    justify-items: left;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 42rem;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .section_title_1, .section_title_2, .section_title_3, .section_title_4{
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+  .section_info_1, .section_info_2, .section_info_3, .section_info_4{
+    text-align: left;
+    margin-left: 3rem;
+    width: 70%;
+    margin-top: -1.25rem;
+  }
+  .section_title_1{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .section_title_2{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .section_title_3{
+    margin-top: 2rem;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .section_title_4{
+    margin-top: 2rem;
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  .how_grid_container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+  }
+  .next_1, .next_2{
+    display: grid;
+  }
+  .phone{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .next_1{
+    margin-top: 4rem;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .qr{
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .next_2{
+    margin-top: 4rem;
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .cart{
+    grid-column: 5;
+    grid-row: 1;
+  }
+  .phone_title{
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .qr_title{
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .cart_title{
+    grid-column: 5;
+    grid-row: 2;
+  }
+  
+  .footer {
+    margin-top: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    grid-template-rows: none;
+    grid-template-columns: 1fr auto auto;
+    text-align: right;
+    justify-items: start;
+    /* border-bottom: 2px solid #CFCFCF; */
+  }
+  .footer_title{
+    margin-top: 0rem;
+    margin-left: 3rem;
+  }
+  .footer_faq{
+    margin-right: 16rem;
+  }
+
+  
+}
